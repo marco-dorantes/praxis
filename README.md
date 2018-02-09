@@ -2,6 +2,9 @@
 Design exercises
 
 
+@MayMay2018
+
+
 Please be aware: part of my intention with the exercises in this repository is to work with you in the role of a ‘mentor’, not just a ‘coach’. As you surely know, there are some differences between those roles; for example, the time perspective of the offered help. The help of a coach might focus on your short-term learnings, whereas the main focus of a mentor is on long-term professional changes —life-changing learnings, if possible.
 
 
