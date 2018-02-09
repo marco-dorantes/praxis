@@ -11,7 +11,7 @@ namespace Specification
     public void AllSculptures()
     {
       //Arrange
-      string filter = null;
+      string filter = "1";
 
       //Act
       var sculptures = Museum.Service.Processor.SculptureProcessor.GetSculptures(filter);

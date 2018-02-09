@@ -14,7 +14,7 @@ namespace Specification
       var sculpture_client = new ConsoleApplication.SculptureProxy("SculptureService");
 
       //Act
-      var sculptures = sculpture_client.Proxy.GetSculptures(null);
+      var sculptures = sculpture_client.Proxy.GetSculptures("1");
 
       //Assert
       Assert.IsNotNull(sculptures);
