@@ -226,5 +226,20 @@ namespace House_Robber_II
       Assert.IsTrue(loot1 == loot2, $"{nameof(loot1)}={loot1} | {nameof(loot2)}={loot2}");
       Assert.AreEqual<int>(18, loot1);
     }
+
+    [TestMethod, TestCategory("Robber")]
+    public void pentagon()
+    {
+      //Arrange
+      int[] house = { 9, 0, 1, 2, 20 };
+
+      //Act
+      var loot1 = HouseRobber.HouseRobber_II.Algorithm1(house);
+      var loot2 = HouseRobber.HouseRobber_II.Algorithm2(house);
+
+      //Assert
+      Assert.IsTrue(loot1 == loot2, $"{nameof(loot1)}={loot1} | {nameof(loot2)}={loot2}");
+      Assert.AreEqual<int>(21, loot1);
+    }
   }
 }
